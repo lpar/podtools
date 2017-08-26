@@ -1,0 +1,75 @@
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Health Update</title>
+    <link>http://www.nytimes.com</link>
+    <description>The New York Times's Jane Brody, "Personal Health" columnist, discusses the latest health news.</description>
+    <itunes:author>The New York Times</itunes:author>
+    <copyright>© 2008 The New York Times Company</copyright>
+
+    <language>en-us</language>
+    <pubDate>Mon, 24 Mar 2008 23:30:07 EDT</pubDate>
+    <lastBuildDate>Mon, 24 Mar 2008 23:30:07 EDT</lastBuildDate>
+    <itunes:category text="News"/>
+    <itunes:category text="Health"/>
+    <itunes:explicit>No</itunes:explicit>
+    <itunes:image href="http://graphics.nytimes.com/images/apps/podcasts/healthupdate.jpg"/>
+
+    <itunes:subtitle>The latest in health news.</itunes:subtitle>
+    <itunes:summary>The New York Times's Jane Brody, "Personal Health" columnist, discusses the latest health news.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>NYTimes.com Podmaster</itunes:name>
+      <itunes:email>http://www.nytimes.com/membercenter/formblink.html</itunes:email>
+    </itunes:owner>
+    <item>
+
+      <itunes:author>Jane Brody of The New York Times</itunes:author>
+      <itunes:keywords/>
+      <itunes:duration>1:05</itunes:duration>
+      <title>NYT: Health Update for 03/25/2008</title>
+      <guid isPermaLink="true">http://podcasts.nytimes.com/podcasts/2008/03/21/25healthupdate.mp3</guid>
+      <description>Monitoring carbon monoxide levels in your bloodstream.</description>
+
+      <category>News</category>
+      <pubDate>Fri, 21 Mar 2008 09:51:00 EDT</pubDate>
+      <enclosure length="1037273" url="http://podcasts.nytimes.com/podcasts/2008/03/21/25healthupdate.mp3" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Jane Brody of The New York Times</itunes:author>
+      <itunes:keywords/>
+
+      <itunes:duration>1:05</itunes:duration>
+      <title>NYT: Health Update for 03/18/2008</title>
+      <guid isPermaLink="true">http://podcasts.nytimes.com/podcasts/2008/03/14/18healthupdate.mp3</guid>
+      <description>Why do teenagers do such dumb things?.</description>
+      <category>News</category>
+      <pubDate>Fri, 14 Mar 2008 09:51:00 EDT</pubDate>
+
+      <enclosure length="1039363" url="http://podcasts.nytimes.com/podcasts/2008/03/14/18healthupdate.mp3" type="audio/mpeg"/>
+    </item>
+    <item>
+      <itunes:author>Jane Brody of The New York Times</itunes:author>
+      <itunes:keywords/>
+      <itunes:duration>1:03</itunes:duration>
+      <title>NYT: Health Update for 03/11/2008</title>
+
+      <guid isPermaLink="true">http://podcasts.nytimes.com/podcasts/2008/03/10/12healthupdate.mp3</guid>
+      <description>Can changing your diet improve your chances of getting pregnant?</description>
+      <category>News</category>
+      <pubDate>Mon, 10 Mar 2008 09:51:00 EDT</pubDate>
+      <enclosure length="1012195" url="http://podcasts.nytimes.com/podcasts/2008/03/10/12healthupdate.mp3" type="audio/mpeg"/>
+    </item>
+
+    <item>
+      <itunes:author>Jane Brody of The New York Times</itunes:author>
+      <itunes:keywords/>
+      <itunes:duration>1:06</itunes:duration>
+      <title>NYT: Health Update for 03/04/2008</title>
+      <guid isPermaLink="true">http://podcasts.nytimes.com/podcasts/2008/03/03/04healthupdate.mp3</guid>
+      <description>The topic is honey.</description>
+
+      <category>News</category>
+      <pubDate>Mon, 03 Mar 2008 09:51:00 EDT</pubDate>
+      <enclosure length="1059425" url="http://podcasts.nytimes.com/podcasts/2008/03/03/04healthupdate.mp3" type="audio/mpeg"/>
+    </item>
+  </channel>
+</rss>

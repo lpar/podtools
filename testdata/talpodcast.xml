@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2enclosuresfull.xsl"?><?xml-stylesheet type="text/css" media="screen" href="http://feed.thisamericanlife.org/~d/styles/itemcontent.css"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:media="http://search.yahoo.com/mrss/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0" xml:base="https://www.thisamericanlife.org">
+<channel>
+ <title>This American Life</title>
+ <link>https://www.thisamericanlife.org</link>
+ <description>This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to stations by PRX The Public Radio Exchange, and has won all of the major broadcasting awards.</description>
+ <language>en</language>
+ <copyright>Copyright 1995-2016 Ira Glass</copyright>
+ <itunes:new-feed-url>http://feed.thisamericanlife.org/talpodcast</itunes:new-feed-url>
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feed.thisamericanlife.org/talpodcast" /><feedburner:info uri="talpodcast" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /><media:copyright>Copyright 1995-2016 Ira Glass</media:copyright><media:thumbnail url="http://www.thisamericanlife.org/sites/all/themes/thislife/images/logo-square-1400.jpg" /><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Society &amp; Culture</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">Arts</media:category><media:category scheme="http://www.itunes.com/dtds/podcast-1.0.dtd">News &amp; Politics</media:category><itunes:author>This American Life</itunes:author><itunes:explicit>yes</itunes:explicit><itunes:image href="http://www.thisamericanlife.org/sites/all/themes/thislife/images/logo-square-1400.jpg" /><itunes:subtitle>This American Life is a weekly public radio show, heard by 2.2 million people on more than 500 stations. Another 2.5 million people download the weekly podcast. It is hosted by Ira Glass, produced in collaboration with Chicago Public Media, delivered to s</itunes:subtitle><itunes:category text="Society &amp; Culture" /><itunes:category text="Arts" /><itunes:category text="News &amp; Politics" /><feedburner:feedFlare href="http://www.podnova.com/add.srf?url=http%3A%2F%2Ffeed.thisamericanlife.org%2Ftalpodcast" src="http://www.podnova.com/img_chicklet_podnova.gif">Subscribe with Podnova</feedburner:feedFlare><feedburner:feedFlare href="http://www.netvibes.com/subscribe.php?url=http%3A%2F%2Ffeed.thisamericanlife.org%2Ftalpodcast" src="//www.netvibes.com/img/add2netvibes.gif">Subscribe with Netvibes</feedburner:feedFlare><feedburner:feedFlare href="https://add.my.yahoo.com/rss?url=http%3A%2F%2Ffeed.thisamericanlife.org%2Ftalpodcast" src="http://us.i1.yimg.com/us.yimg.com/i/us/my/addtomyyahoo4.gif">Subscribe with My Yahoo!</feedburner:feedFlare><feedburner:feedFlare href="http://feedly.com/#subscription/feed/http://feed.thisamericanlife.org/talpodcast" src="http://s3.feedly.com/feedburner/feedly.png">Subscribe with Feedly</feedburner:feedFlare><feedburner:feedFlare href="https://www.subtome.com/#/subscribe?feeds=http%3A%2F%2Ffeed.thisamericanlife.org%2Ftalpodcast" src="http://www.subtome.com/subtome-feedburner.png">Subscribe with SubToMe</feedburner:feedFlare><feedburner:feedFlare href="http://fusion.google.com/add?feedurl=http%3A%2F%2Ffeed.thisamericanlife.org%2Ftalpodcast" src="http://buttons.googlesyndication.com/fusion/add.gif">Subscribe with Google</feedburner:feedFlare><item>
+ <title>#623: We Are in the Future</title>
+ <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/2slQaInADRI/we-are-in-the-future</link>
+ <description>One of our producers, Neil Drumming, has recently become fascinated with Afrofuturism. It's more than sci-fi. It’s a way of looking at black culture that’s fantastic, creative, and oddly hopeful—which feels especially urgent during a time without a lot of optimism.  
+
+&lt;br&gt;&lt;br&gt;Featuring the new song &lt;a href=https://www.youtube.com/embed/zT1ujfuXFVo&gt;"The Deep"&lt;/a&gt; by &lt;a href="http://www.clppng.com/"&gt;clppng.&lt;/a&gt; Original artwork by &lt;a href="http://www.mattahan.com/"&gt;Paul Davey&lt;/a&gt;. Click to enlarge.&lt;img src="http://feeds.feedburner.com/~r/talpodcast/~4/2slQaInADRI" height="1" width="1" alt=""/&gt;</description>
+ <pubDate>Mon, 21 Aug 2017 00:00:00 +0000</pubDate>
+ <dc:creator>This American Life</dc:creator>
+ <guid isPermaLink="false">7323 at https://www.thisamericanlife.org</guid>
+ <enclosure url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/podcast/623.mp3" type="audio/mpeg" />
+ <itunes:duration>00:59:25</itunes:duration>
+<media:content url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/podcast/623.mp3" type="audio/mpeg" /><itunes:explicit>yes</itunes:explicit><itunes:subtitle>One of our producers, Neil Drumming, has recently become fascinated with Afrofuturism. It's more than sci-fi. It’s a way of looking at black culture that’s fantastic, creative, and oddly hopeful—which feels especially urgent during a time without a lot of</itunes:subtitle><itunes:author>This American Life</itunes:author><itunes:summary>One of our producers, Neil Drumming, has recently become fascinated with Afrofuturism. It's more than sci-fi. It’s a way of looking at black culture that’s fantastic, creative, and oddly hopeful—which feels especially urgent during a time without a lot of optimism. Featuring the new song "The Deep" by clppng. Original artwork by Paul Davey. Click to enlarge. </itunes:summary><feedburner:origLink>https://www.thisamericanlife.org/radio-archives/episode/623/we-are-in-the-future</feedburner:origLink></item>
+<item>
+ <title>#472: Our Friend David</title>
+ <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/vDFuvW0j1Zo/our-friend-david</link>
+ <description>Favorite stories by our longtime contributor and friend David Rakoff.&lt;img src="http://feeds.feedburner.com/~r/talpodcast/~4/vDFuvW0j1Zo" height="1" width="1" alt=""/&gt;</description>
+ <pubDate>Mon, 14 Aug 2017 00:00:00 +0000</pubDate>
+ <dc:creator>This American Life</dc:creator>
+ <guid isPermaLink="false">5723 at https://www.thisamericanlife.org</guid>
+ <enclosure url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/472.mp3" type="audio/mpeg" />
+ <itunes:duration>01:00:03</itunes:duration>
+ <itunes:explicit>yes</itunes:explicit>
+<media:content url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/472.mp3" type="audio/mpeg" /><itunes:subtitle>Favorite stories by our longtime contributor and friend David Rakoff. </itunes:subtitle><itunes:author>This American Life</itunes:author><itunes:summary>Favorite stories by our longtime contributor and friend David Rakoff. </itunes:summary><feedburner:origLink>https://www.thisamericanlife.org/radio-archives/episode/472/our-friend-david</feedburner:origLink></item>
+<item>
+ <title>#622: Who You Gonna Call?</title>
+ <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/RD9bbVPr4AY/who-you-gonna-call</link>
+ <description>When everything goes wrong, one of the first things we think is, "Who do I call?" This week, stories of lucky people who have found the exact right person to ring up for help.&lt;img src="http://feeds.feedburner.com/~r/talpodcast/~4/RD9bbVPr4AY" height="1" width="1" alt=""/&gt;</description>
+ <pubDate>Mon, 07 Aug 2017 00:00:00 +0000</pubDate>
+ <dc:creator>This American Life</dc:creator>
+ <guid isPermaLink="false">7317 at https://www.thisamericanlife.org</guid>
+ <enclosure url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/622.mp3" type="audio/mpeg" />
+ <itunes:duration>01:02:02</itunes:duration>
+<media:content url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/622.mp3" type="audio/mpeg" /><itunes:explicit>yes</itunes:explicit><itunes:subtitle>When everything goes wrong, one of the first things we think is, "Who do I call?" This week, stories of lucky people who have found the exact right person to ring up for help. </itunes:subtitle><itunes:author>This American Life</itunes:author><itunes:summary>When everything goes wrong, one of the first things we think is, "Who do I call?" This week, stories of lucky people who have found the exact right person to ring up for help. </itunes:summary><feedburner:origLink>https://www.thisamericanlife.org/radio-archives/episode/622/who-you-gonna-call</feedburner:origLink></item>
+<item>
+ <title>#175: Babysitting</title>
+ <link>http://feed.thisamericanlife.org/~r/talpodcast/~3/tN4n1pMu-2c/babysitting</link>
+ <description>Stories of babysitters, and what goes on while mom and dad are away that mom and dad never find out about. Including the story of two teenagers who decide to invent children to babysit, as an excuse to get out of their own house.&lt;img src="http://feeds.feedburner.com/~r/talpodcast/~4/tN4n1pMu-2c" height="1" width="1" alt=""/&gt;</description>
+ <pubDate>Mon, 31 Jul 2017 00:00:00 +0000</pubDate>
+ <dc:creator>This American Life</dc:creator>
+ <guid isPermaLink="false">3137 at https://www.thisamericanlife.org</guid>
+ <enclosure url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/175.mp3" type="audio/mpeg" />
+ <itunes:duration>01:02:15</itunes:duration>
+<media:content url="https://www.podtrac.com/pts/redirect.mp3/podcast.thisamericanlife.org/extended/175.mp3" type="audio/mpeg" /><itunes:explicit>yes</itunes:explicit><itunes:subtitle>Stories of babysitters, and what goes on while mom and dad are away that mom and dad never find out about. Including the story of two teenagers who decide to invent children to babysit, as an excuse to get out of their own house.</itunes:subtitle><itunes:author>This American Life</itunes:author><itunes:summary>Stories of babysitters, and what goes on while mom and dad are away that mom and dad never find out about. Including the story of two teenagers who decide to invent children to babysit, as an excuse to get out of their own house.</itunes:summary><feedburner:origLink>https://www.thisamericanlife.org/radio-archives/episode/175/babysitting</feedburner:origLink></item>
+<media:credit role="author">This American Life</media:credit><media:rating>adult</media:rating></channel>
+</rss>
