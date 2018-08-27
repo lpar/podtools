@@ -1,6 +1,6 @@
-# podget
+# podtools / podget
 
-A simple podcast downloader in Go.
+A simple podcast downloader in Go, and an accompanying library.
 
 I needed a command line utility to download and archive my favorite podcasts.
 I tried various existing utilities, but they were all defective in some way or
