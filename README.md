@@ -18,3 +18,18 @@ old, we assume they're doing a rerun and download the new version.
 The `-d ~/TAL` argument specifies the destination directory.
 
 The `-v` says to be verbose and output progress messages.
+
+## Building
+
+Clone this repository, `cd` into the same directory as this README.md file, and then:
+
+    go build ./cmd/podget
+
+You should end up with an executable in the current directory.
+
+You can cross-compile [in the usual Go
+way](https://dave.cheney.net/2015/08/22/cross-compilation-with-go-1-5). For
+example, to build a binary for your Linux Synology box using your Mac,
+
+    GOOS=linux GOARCH=amd64 go build ./cmd/podget
+
