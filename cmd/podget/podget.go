@@ -123,7 +123,16 @@ func processItem(feedtitle string, feeddir string, item *podcast.Item) {
 		logError("can't parse URL %s for %s: %v", enc.URL, feedtitle, err)
 		return
 	}
-	destfile := filepath.Join(*destdir, feeddir, filepath.Base(u.Path))
+	var destfile string
+	if *podtrac != "" {
+		destfile, err = depodtracify(item, enc, u, filepath.Ext(u.Path))
+		if err != nil {
+			logError("skipping episode: %v", err)
+			return
+		}
+	} else {
+		destfile = filepath.Join(*destdir, feeddir, filepath.Base(u.Path))
+	}
 	stats, err := os.Stat(destfile)
 	overwrite := false
 	if err == nil && *maxdays > 0 {
@@ -143,10 +152,39 @@ func processItem(feedtitle string, feeddir string, item *podcast.Item) {
 	logError("skipping %s, already downloaded", destfile)
 }
 
+// depodtracify handles extracting an episode number from the data, in cases where the podcast
+// is using podtrac. Otherwise, every episode ends up with the same filename `default.mp3`.
+func depodtracify(item *podcast.Item, enc *podcast.Enclosure, u *url.URL, ext string) (string, error) {
+	data := make(map[string]string)
+	data["item.author"] = item.Author
+	data["item.category"] = item.Category
+	data["item.description"] = item.Description
+	data["item.duration"] = item.Duration.String()
+	data["item.guid"] = item.Guid.Text
+	data["item.pubDate"] = item.PubDate.String()
+	data["item.title"] = item.Title
+	data["enclosure.url"] = enc.URL
+	data["url"] = u.String()
+	x := data[podtracField]
+	ep := podtracRE.FindStringSubmatch(x)
+	if len(ep) < 1 || ep[1] == "" {
+		if *debug {
+			logDebug("search data: %s", x)
+			logDebug("     regexp: %s", podtracRE)
+		}
+		return "", fmt.Errorf("failed to extract filename for %s", u.String())
+	}
+	return ep[1] + ext, nil
+}
+
 var verbose = flag.Bool("v", false, "verbose output")
 var debug = flag.Bool("debug", false, "debug mode")
 var destdir = flag.String("d", "", "destination directory")
 var maxdays = flag.Int("r", 0, "enable rerun processing after specified number of days")
+var podtrac = flag.String("podtrac", "", "how to extract episode number, see README")
+
+var podtracRE *regexp.Regexp
+var podtracField string
 
 func processFeed(feedurl string) {
 	resp, err := http.Get(feedurl)
@@ -166,8 +204,31 @@ func processFeed(feedurl string) {
 	}
 }
 
+func podtracCompile() error {
+	var err error
+	instruction := *podtrac
+	if instruction == "" {
+		return nil
+	}
+	chunks := strings.SplitN(instruction, " ", 2)
+	podtracField = strings.TrimSpace(chunks[0])
+	sregex := strings.Trim(chunks[1], " /")
+	if *debug {
+		logDebug("compiling %s", sregex)
+	}
+	podtracRE, err = regexp.Compile(sregex)
+	return err
+}
+
 func main() {
 	flag.Parse()
+
+	if err := podtracCompile(); err != nil {
+		logError("can't compile podtrac decode instruction: %v", err)
+		os.Exit(1)
+	} else {
+		logDebug("will search field %s for %s", podtracField, podtracRE)
+	}
 
 	wg := new(sync.WaitGroup)
 

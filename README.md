@@ -19,6 +19,32 @@ The `-d ~/TAL` argument specifies the destination directory.
 
 The `-v` says to be verbose and output progress messages.
 
+## Podtrac
+
+Increasingly, podcasters have started to use podtrac.com, a commercial service which
+tracks download statistics. Unfortunately, this breaks easy downloading of podcasts,
+because the filename always ends up being `default.mp3`. So, a special argument `-podtrac`
+has been added to allow you to specify some way to extract the episode number from the podcast
+metadata.
+
+For example:
+
+    podget -d ~/TAL -r 30 -v -podtrac 'item.description /^(\d+):/' http://feed.thisamericanlife.org/talpodcast
+
+The argument syntax is a fieldname, then a space, then a regex in `//` with a capturing group. The available
+fields are:
+
+```
+item.author
+item.category
+item.description
+item.duration
+item.guid
+item.pubDate
+item.title
+enclosure.url
+```
+
 ## Building
 
 Clone this repository, `cd` into the same directory as this README.md file, and then:
