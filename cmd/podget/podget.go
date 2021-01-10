@@ -130,6 +130,7 @@ func processItem(feedtitle string, feeddir string, item *podcast.Item) {
 			logError("skipping episode: %v", err)
 			return
 		}
+		destfile = filepath.Join(*destdir, feeddir, destfile)
 	} else {
 		destfile = filepath.Join(*destdir, feeddir, filepath.Base(u.Path))
 	}
